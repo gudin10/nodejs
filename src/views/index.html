@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title><%=title%></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+        
+        <!--Incluye el head con los CDNs-->
+        <%- include('partials/head.html') %>
+    </head>
+    <body>
+        <%- include('partials/navigation.html') %>
+        <div class="container">
+            <header class="row">
+                <div class="col-lg-12 text-center">
+                    <img class="animate__bounceIn" src="/img/logonode.png" alt="Logonode">
+                </div>
+                
+            </header>
+        </div>
+        <!--Seccion uno-->
+        <div class="container-fluid" id="about">
+            <div class="row bg-dark text-white p-5 text-center">
+                <div class="col-sm-6">
+                    <i class="fab fa-youtube fa-10x"></i>
+                </div>
+                <div class="col-sm-6">
+                    <h3>Lo mas suscrito de Youtebe</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi pariatur in ducimus, earum suscipit quia saepe est veritatis explicabo et cum, odit, nam inventore. Saepe ipsum commodi tenetur asperiores?</p>
+                </div>
+            </div>
+        </div>
+        <%- include('partials/footer.html')%>
+    </body>
+</html>
